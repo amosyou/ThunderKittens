@@ -129,7 +129,6 @@ int main(int argc, char **argv) {
     }
 
     bool good = true;
-    float total_diff = 0;
     std::ofstream o_ref_file("printouts/o_ref.txt");
     std::ofstream o_file("printouts/o.txt");
     std::ofstream diff_file("printouts/diff.txt");
